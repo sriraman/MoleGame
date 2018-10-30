@@ -5,6 +5,10 @@ export default StyleSheet.create({
   holeImage: {
   },
   holeMaskImage: {
-
+    zIndex: 1
+  },
+  moleImage: {
+    position: 'absolute',
+    zIndex: 0
   }
 })

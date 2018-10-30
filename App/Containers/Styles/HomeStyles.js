@@ -8,8 +8,8 @@ export default StyleSheet.create({
   },
   headerBackgroundImage: {
     position: 'absolute',
-    backgroundColor: 'tomato',
-    width: '100%'
+    width: '100%',
+    height: Metrics.screenWidth / 2.08
   },
   logo: {
     marginTop: Metrics.doubleSection,
@@ -24,5 +24,20 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-around'
+  },
+  dashboard: {
+    height: Metrics.screenWidth / 2.08
+  },
+  buttons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    margin: 20,
+    marginTop: 40
+  },
+  scoreText: {
+    textAlign: 'center',
+    fontWeight: '900',
+    fontSize: 26,
+    marginBottom: 50
   }
 })
